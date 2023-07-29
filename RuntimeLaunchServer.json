@@ -1,0 +1,8 @@
+{
+  "passwordEncryptKey": "5f23a1a896dd3a8fecde2c4186e9f07c",
+  "runtimeEncryptKey": "83b5d4fa5fe2cec2",
+  "unlockSecret": "8c01270890c7ea33742d1a184050f417",
+  "registerApiKey": "279c8233e03f85732c1008020bc10196",
+  "clientCheckSecret": "9aab8104dd40bc0fa9572c6107ef4ca8",
+  "buildNumber": 1
+}

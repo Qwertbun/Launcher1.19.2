@@ -1,0 +1,12 @@
+{
+  "createAccountURL": "https://mine-souls.com",
+  "forgotPassURL": "https://mine-souls.com",
+  "hastebinServer": "https://hastebin.com",
+  "forceDownloadJava": true,
+  "javaList": {},
+  "lazy": false,
+  "disableOfflineMode": true,
+  "autoAuth": false,
+  "locale": "RUSSIAN",
+  "downloadThreads": 4
+}

@@ -1,0 +1,143 @@
+{
+  "projectName": "Opera",
+  "mirrors": [
+    "https://mirror.gravitlauncher.com/5.4.x/",
+    "https://gravit-launcher-mirror.storage.googleapis.com/"
+  ],
+  "binaryName": "Launcher",
+  "copyBinaries": true,
+  "cacheUpdates": true,
+  "env": "DEV",
+  "auth": {
+    "std": {
+      "isDefault": true,
+      "core": {
+        "type": "mysql",
+        "mySQLHolder": {
+          "address": "31.31.196.31",              // адрес mysql сервера
+          "port": 3306,                        // порт mysql сервера
+          "username": "user",          // имя пользователя
+          "password": "password",              // пароль пользователя
+          "database": "database", // база данных (до ?), после — параметры базы данных, в этом примере — установка серверного часового пояса
+          "timezone": "UTC",                   // установка клиентского часового пояса
+          "useHikari": false                    // Использовать HikariCP
+        },
+        "passwordVerifier": {
+          "type": "bcrypt"
+        },
+        "table": "dle_users",                      // таблица
+        "tableHwid": "hwids",
+        "uuidColumn": "uuid",                  // название столбца с uuid
+        "usernameColumn": "name",          // название столбца с именами пользователей
+        "passwordColumn": "password",          // название столбца с паролем пользователя
+        "accessTokenColumn": "accessToken",    // название столбца с accessToken
+        "hardwareIdColumn": "hwidId",          // название столбца с ID записи в таблице hwids
+        "serverIDColumn": "serverID"           // название столбца с serverID
+      },
+      "textureProvider": {
+        "skinURL": "https://example.com/modules/sac/skins/%username%.png",
+        "cloakURL": "https://example.com/modules/sac/cloaks/%username%.png",
+        "type": "request"
+      },
+      "displayName": "Default",
+      "visible": true
+    }
+  },
+  "protectHandler": {
+    "profileWhitelist": {},
+    "allowUpdates": [],
+    "type": "std"
+  },
+  "components": {
+    "regLimiter": {
+      "message": "Превышен лимит регистраций",
+      "excludeIps": [],
+      "exclude": [],
+      "rateLimit": 3,
+      "rateLimitMillis": 36000000,
+      "type": "regLimiter"
+    },
+    "authLimiter": {
+      "message": "Превышен лимит авторизаций",
+      "exclude": [],
+      "rateLimit": 3,
+      "rateLimitMillis": 8000,
+      "type": "authLimiter"
+    },
+    "proguard": {
+      "modeAfter": "MainBuild",
+      "dir": "proguard",
+      "enabled": true,
+      "mappings": true,
+      "type": "proguard"
+    }
+  },
+  "launch4j": {
+    "enabled": true,
+    "setMaxVersion": false,
+    "maxVersion": "1.8.999",
+    "minVersion": "1.8.0",
+    "downloadUrl": "https://bell-sw.com/pages/downloads/?version=java-8-lts&os=Windows&package=jre-full",
+    "productName": "Launcher",
+    "productVer": "2.0.0.2",
+    "fileDesc": "Launcher 2.0.0",
+    "fileVer": "2.0.0.2",
+    "internalName": "Launcher",
+    "copyright": "© MTeam",
+    "trademarks": "This product is licensed under GPLv3",
+    "txtFileVersion": "%s, build %d",
+    "txtProductVersion": "%s, build %d"
+  },
+  "netty": {
+    "fileServerEnabled": true,
+    "ipForwarding": true,
+    "disableWebApiInterface": false,
+    "showHiddenFiles": false,
+    "sendProfileUpdatesEvent": true,
+    "launcherURL": "http://0.0.0.0:9274/Launcher.jar",
+    "downloadURL": "http://0.0.0.0:9274/%dirname%/",
+    "launcherEXEURL": "http://0.0.0.0:9274/Launcher.exe",
+    "address": "ws://0.0.0.0:9274/api",
+    "bindings": {},
+    "performance": {
+      "usingEpoll": false,
+      "bossThread": 2,
+      "workerThread": 8,
+      "schedulerThread": 2,
+      "maxWebSocketRequestBytes": 1048576
+    },
+    "security": {
+      "hardwareTokenExpire": 28800,
+      "publicKeyTokenExpire": 28800,
+      "launcherTokenExpire": 28800
+    },
+    "binds": [
+      {
+        "address": "0.0.0.0",
+        "port": 9274
+      }
+    ],
+    "logLevel": "DEBUG"
+  },
+  "launcher": {
+    "compress": true,
+    "stripLineNumbers": true,
+    "deleteTempFiles": true,
+    "certificatePinning": false,
+    "encryptRuntime": false,
+    "customJvmOptions": [],
+    "memoryLimit": 256
+  },
+  "sign": {
+    "enabled": false,
+    "keyStore": "pathToKey",
+    "keyStoreType": "JKS",
+    "keyStorePass": "mypass",
+    "keyAlias": "myname",
+    "keyPass": "mypass",
+    "metaInfKeyName": "SIGNUMO.RSA",
+    "metaInfSfName": "SIGNUMO.SF",
+    "signAlgo": "SHA256WITHRSA"
+  },
+  "startScript": ".\\start.bat"
+}
