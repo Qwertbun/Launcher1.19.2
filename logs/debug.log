@@ -1,0 +1,60 @@
+2023-08-08 22:19:27.478 [main] DEBUG LogHelper - Testing stacktrace
+2023-08-08 22:19:27.482 [main] DEBUG LogHelper - Verifying class loader
+2023-08-08 22:19:27.482 [main] DEBUG LogHelper - Verifying JVM architecture
+2023-08-08 22:19:27.485 [main] INFO  LogHelper - [1;95mGravitLauncher [94m(fork sashok724's Launcher) [96mLaunchServer[97m v[94m5.4.2-1 stable[97m (build #[91m1[97m)[m
+2023-08-08 22:19:27.496 [main] INFO  LogHelper - [1;95mLicense for [96mLaunchServer[97m GPLv3[97m. SourceCode: [93mhttps://github.com/GravitLauncher/Launcher[m
+2023-08-08 22:19:28.116 [main] INFO  pro.gravit.launchserver.LaunchServerStarter - JLine2 terminal enabled
+2023-08-08 22:19:28.118 [main] INFO  pro.gravit.launchserver.LaunchServerStarter - Reading LaunchServer config file
+2023-08-08 22:19:28.150 [main] INFO  pro.gravit.launchserver.LaunchServerStarter - Reading LaunchServer runtime config file
+2023-08-08 22:19:28.303 [main] INFO  pro.gravit.launchserver.manangers.KeyAgreementManager - Reading ECDSA keypair
+2023-08-08 22:19:28.316 [main] INFO  pro.gravit.launchserver.manangers.KeyAgreementManager - Reading RSA keypair
+2023-08-08 22:19:28.424 [main] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher binaries
+2023-08-08 22:19:28.424 [main] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher binary file
+2023-08-08 22:19:28.536 [main] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher EXE binary file
+2023-08-08 22:19:28.606 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init components
+2023-08-08 22:19:28.608 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init component regLimiter
+2023-08-08 22:19:28.609 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init component authLimiter
+2023-08-08 22:19:28.611 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init component proguard
+2023-08-08 22:19:28.613 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init components successful
+2023-08-08 22:19:28.651 [Netty Server Socket Thread] INFO  pro.gravit.launchserver.socket.handlers.NettyServerSocketHandler - Starting netty server socket thread
+2023-08-08 22:19:28.664 [Netty Server Socket Thread] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2023-08-08 22:19:28.668 [Netty Server Socket Thread] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2023-08-08 22:19:28.720 [Netty Server Socket Thread] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-08-08 22:19:28.720 [Netty Server Socket Thread] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-08-08 22:19:28.757 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2023-08-08 22:19:28.757 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 17
+2023-08-08 22:19:28.758 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2023-08-08 22:19:28.759 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2023-08-08 22:19:28.759 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+2023-08-08 22:19:28.760 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2023-08-08 22:19:28.761 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-08-08 22:19:28.761 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2023-08-08 22:19:28.763 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @52bf72b5
+2023-08-08 22:19:28.765 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-08-08 22:19:28.765 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2023-08-08 22:19:28.766 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 4282384384 bytes (maybe)
+2023-08-08 22:19:28.766 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\BOT\AppData\Local\Temp (java.io.tmpdir)
+2023-08-08 22:19:28.766 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-08-08 22:19:28.767 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2023-08-08 22:19:28.768 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2023-08-08 22:19:28.768 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-08-08 22:19:28.769 [Netty Server Socket Thread] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2023-08-08 22:19:28.770 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2023-08-08 22:19:28.771 [Netty Server Socket Thread] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2023-08-08 22:19:28.771 [Netty Server Socket Thread] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-08-08 22:19:28.789 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2023-08-08 22:19:28.992 [Netty Server Socket Thread] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 25376 (auto-detected)
+2023-08-08 22:19:28.989 [main] INFO  pro.gravit.launchserver.LaunchServer - LaunchServer started
+2023-08-08 22:19:28.997 [Netty Server Socket Thread] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2023-08-08 22:19:28.997 [Netty Server Socket Thread] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2023-08-08 22:19:29.028 [Netty Server Socket Thread] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-08-08 22:19:29.029 [Netty Server Socket Thread] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-08-08 22:19:29.070 [Netty Server Socket Thread] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 38:6b:1c:ff:fe:de:85:e1 (auto-detected)
+2023-08-08 22:19:29.095 [Netty Server Socket Thread] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2023-08-08 22:19:29.095 [Netty Server Socket Thread] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2023-08-08 22:19:29.211 [Netty Server Socket Thread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2023-08-08 22:19:29.211 [Netty Server Socket Thread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2023-08-08 22:19:29.212 [Netty Server Socket Thread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2023-08-08 22:19:29.212 [Netty Server Socket Thread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+2023-08-08 22:19:29.212 [Netty Server Socket Thread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+2023-08-08 22:19:29.212 [Netty Server Socket Thread] DEBUG io.netty.buffer.PooledByteBufAllocator

@@ -1,3 +1,3 @@
 @ECHO OFF
-"C:\Users\RobotComp.ru\Desktop/Minesouls-MainFolder/Servers/jdk/bin/java.exe" -javaagent:LaunchServer.jar -jar LaunchServer.jar
+"D:\LibericaJDK-17-Full\bin\java.exe" -javaagent:LaunchServer.jar -jar LaunchServer.jar
 PAUSE

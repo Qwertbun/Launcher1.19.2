@@ -4075,9 +4075,11 @@ pro.gravit.launcher.client.gui.scenes.settings.JavaSelectorComponent -> pro.grav
     javafx.scene.control.Label javaError -> miNeSOUlSRPT7R
     pro.gravit.launcher.client.gui.config.RuntimeSettings$ProfileSettingsView profileSettings -> MINeSOUlsRPerH
     pro.gravit.launcher.profiles.ClientProfile profile -> MinESoulSRp3Ah
-    21:55:void <init>(pro.gravit.launcher.client.gui.service.JavaService,javafx.scene.layout.Pane,pro.gravit.launcher.client.gui.config.RuntimeSettings$ProfileSettingsView,pro.gravit.launcher.profiles.ClientProfile) -> <init>
-    58:58:java.lang.String getPath() -> mINESoUlSRpxCH
-    49:54:void lambda$new$0(pro.gravit.launcher.client.gui.config.RuntimeSettings$ProfileSettingsView,javafx.event.ActionEvent) -> mINESoUlSRpxCH
+    pro.gravit.launcher.client.gui.service.JavaService javaService -> mINeSoULsRpkjm
+    22:32:void <init>(pro.gravit.launcher.client.gui.service.JavaService,javafx.scene.layout.Pane,pro.gravit.launcher.client.gui.config.RuntimeSettings$ProfileSettingsView,pro.gravit.launcher.profiles.ClientProfile) -> <init>
+    35:61:void reset() -> mINESoUlSRpxCH
+    64:64:java.lang.String getPath() -> MINeSoulsrppRw
+    55:60:void lambda$reset$0(javafx.event.ActionEvent) -> mINESoUlSRpxCH
     void <clinit>() -> <clinit>
 pro.gravit.launcher.client.gui.scenes.settings.JavaSelectorComponent$1 -> pro.gravit.launcher.mINeSouLSrPSu9:
 # {"fileName":"JavaSelectorComponent.java","id":"sourceFile"}
@@ -4085,12 +4087,12 @@ pro.gravit.launcher.client.gui.scenes.settings.JavaSelectorComponent$1 -> pro.gr
 pro.gravit.launcher.client.gui.scenes.settings.JavaSelectorComponent$JavaVersionConverter -> pro.gravit.launcher.mINEsouLsrP3Sw:
 # {"fileName":"JavaSelectorComponent.java","id":"sourceFile"}
     pro.gravit.launcher.profiles.ClientProfile profile -> mINESoUlSRpxCH
-    64:66:void <init>(pro.gravit.launcher.profiles.ClientProfile) -> <init>
-    70:75:java.lang.String toString(pro.gravit.utils.helper.JavaHelper$JavaVersion) -> mINESoUlSRpxCH
-    80:80:pro.gravit.utils.helper.JavaHelper$JavaVersion fromString(java.lang.String) -> mINESoUlSRpxCH
-    61:61:java.lang.Object fromString(java.lang.String) -> fromString
-    61:61:java.lang.String toString(java.lang.Object) -> toString
-    61:61:void <init>(pro.gravit.launcher.profiles.ClientProfile,pro.gravit.launcher.client.gui.scenes.settings.JavaSelectorComponent$1) -> <init>
+    70:72:void <init>(pro.gravit.launcher.profiles.ClientProfile) -> <init>
+    76:81:java.lang.String toString(pro.gravit.utils.helper.JavaHelper$JavaVersion) -> mINESoUlSRpxCH
+    86:86:pro.gravit.utils.helper.JavaHelper$JavaVersion fromString(java.lang.String) -> mINESoUlSRpxCH
+    67:67:java.lang.Object fromString(java.lang.String) -> fromString
+    67:67:java.lang.String toString(java.lang.Object) -> toString
+    67:67:void <init>(pro.gravit.launcher.profiles.ClientProfile,pro.gravit.launcher.client.gui.scenes.settings.JavaSelectorComponent$1) -> <init>
     void <clinit>() -> <clinit>
 pro.gravit.launcher.client.gui.scenes.settings.SettingsScene -> pro.gravit.launcher.MiNEsOUlsRPuqV:
 # {"fileName":"SettingsScene.java","id":"sourceFile"}
@@ -4102,27 +4104,27 @@ pro.gravit.launcher.client.gui.scenes.settings.SettingsScene -> pro.gravit.launc
     pro.gravit.launcher.client.gui.config.RuntimeSettings$ProfileSettingsView profileSettings -> mINESoulsRpOiZ
     pro.gravit.launcher.client.gui.scenes.settings.JavaSelectorComponent javaSelector -> MinESoULsrPRTF
     39:40:void <init>(pro.gravit.launcher.client.gui.JavaFXApplication) -> <init>
-    44:138:void doInit() -> mINeSoULsRpkjm
-    141:144:long getJavaMaxMemory() -> mINESoulsRpOiZ
-    149:178:void reset() -> mINESoUlSRpxCH
-    182:182:java.lang.String getName() -> MinESoulSRp3Ah
-    186:189:void add(java.lang.String,boolean,java.util.function.Consumer) -> mINESoUlSRpxCH
-    192:210:void add(java.lang.String,java.lang.String,boolean,java.util.function.Consumer) -> mINESoUlSRpxCH
-    213:214:void updateRamLabel() -> mInESouLsRPFIp
-    202:202:void lambda$add$15(java.util.function.Consumer,javafx.scene.control.CheckBox,javafx.event.ActionEvent) -> mINESoUlSRpxCH
-    177:177:void lambda$reset$14(java.lang.Boolean) -> mINESoUlSRpxCH
-    176:176:void lambda$reset$13(java.lang.Boolean) -> MINeSoulsrppRw
-    175:175:void lambda$reset$12(java.lang.Boolean) -> miNeSOUlSRPT7R
-    172:173:void lambda$reset$11(javafx.event.ActionEvent) -> mINESoUlSRpxCH
-    164:170:void lambda$reset$10(pro.gravit.launcher.profiles.ClientProfile,javafx.event.ActionEvent) -> mINESoUlSRpxCH
-    153:155:void lambda$reset$9(javafx.beans.value.ObservableValue,java.lang.Number,java.lang.Number) -> mINESoUlSRpxCH
-    129:129:void lambda$doInit$8(javafx.scene.control.ButtonBase) -> mINESoUlSRpxCH
-    131:136:void lambda$doInit$7(javafx.event.ActionEvent) -> MINeSoulsrppRw
-    115:115:void lambda$doInit$6(javafx.scene.control.ButtonBase) -> MINeSoulsrppRw
-    116:117:void lambda$doInit$5(javafx.event.ActionEvent) -> miNeSOUlSRPT7R
-    128:128:void lambda$doInit$4() -> MinESoULsrPRTF
-    119:127:void lambda$doInit$3() -> mInesOULSrpYIR
-    91:114:void lambda$doInit$2(javafx.scene.control.Hyperlink,javafx.event.ActionEvent) -> mINESoUlSRpxCH
+    44:140:void doInit() -> mINeSoULsRpkjm
+    143:146:long getJavaMaxMemory() -> mINESoulsRpOiZ
+    151:180:void reset() -> mINESoUlSRpxCH
+    184:184:java.lang.String getName() -> MinESoulSRp3Ah
+    188:191:void add(java.lang.String,boolean,java.util.function.Consumer) -> mINESoUlSRpxCH
+    194:212:void add(java.lang.String,java.lang.String,boolean,java.util.function.Consumer) -> mINESoUlSRpxCH
+    215:216:void updateRamLabel() -> mInESouLsRPFIp
+    204:204:void lambda$add$15(java.util.function.Consumer,javafx.scene.control.CheckBox,javafx.event.ActionEvent) -> mINESoUlSRpxCH
+    179:179:void lambda$reset$14(java.lang.Boolean) -> mINESoUlSRpxCH
+    178:178:void lambda$reset$13(java.lang.Boolean) -> MINeSoulsrppRw
+    177:177:void lambda$reset$12(java.lang.Boolean) -> miNeSOUlSRPT7R
+    174:175:void lambda$reset$11(javafx.event.ActionEvent) -> mINESoUlSRpxCH
+    166:172:void lambda$reset$10(pro.gravit.launcher.profiles.ClientProfile,javafx.event.ActionEvent) -> mINESoUlSRpxCH
+    155:157:void lambda$reset$9(javafx.beans.value.ObservableValue,java.lang.Number,java.lang.Number) -> mINESoUlSRpxCH
+    131:131:void lambda$doInit$8(javafx.scene.control.ButtonBase) -> mINESoUlSRpxCH
+    133:138:void lambda$doInit$7(javafx.event.ActionEvent) -> MINeSoulsrppRw
+    117:117:void lambda$doInit$6(javafx.scene.control.ButtonBase) -> MINeSoulsrppRw
+    118:119:void lambda$doInit$5(javafx.event.ActionEvent) -> miNeSOUlSRPT7R
+    130:130:void lambda$doInit$4() -> MinESoULsrPRTF
+    121:129:void lambda$doInit$3() -> mInesOULSrpYIR
+    91:116:void lambda$doInit$2(javafx.scene.control.Hyperlink,javafx.event.ActionEvent) -> mINESoUlSRpxCH
     88:89:void lambda$doInit$1(javafx.event.ActionEvent) -> MINeSOUlsRPerH
     47:55:void lambda$doInit$0(javafx.event.ActionEvent) -> MinESoulSRp3Ah
     void <clinit>() -> <clinit>
@@ -4266,11 +4268,13 @@ pro.gravit.launcher.client.gui.service.JavaService -> pro.gravit.launcher.mInEso
 # {"fileName":"JavaService.java","id":"sourceFile"}
     java.util.regex.Pattern JAVA_VERSION_PATTERN -> MINeSoulsrppRw
     java.util.List javaVersions -> mINESoUlSRpxCH
-    20:54:void <init>(pro.gravit.launcher.client.gui.JavaFXApplication) -> <init>
-    57:67:boolean isArchAvailable(pro.gravit.utils.helper.JVMHelper$ARCH) -> mINESoUlSRpxCH
-    71:71:boolean isIncompatibleJava(pro.gravit.utils.helper.JavaHelper$JavaVersion,pro.gravit.launcher.profiles.ClientProfile) -> mINESoUlSRpxCH
-    75:80:boolean contains(java.nio.file.Path) -> mINESoUlSRpxCH
-    84:115:pro.gravit.utils.helper.JavaHelper$JavaVersion getRecommendJavaVersion(pro.gravit.launcher.profiles.ClientProfile) -> mINESoUlSRpxCH
+    pro.gravit.launcher.client.gui.JavaFXApplication application -> miNeSOUlSRPT7R
+    21:24:void <init>(pro.gravit.launcher.client.gui.JavaFXApplication) -> <init>
+    27:61:void update() -> mINESoUlSRpxCH
+    64:74:boolean isArchAvailable(pro.gravit.utils.helper.JVMHelper$ARCH) -> mINESoUlSRpxCH
+    78:78:boolean isIncompatibleJava(pro.gravit.utils.helper.JavaHelper$JavaVersion,pro.gravit.launcher.profiles.ClientProfile) -> mINESoUlSRpxCH
+    82:87:boolean contains(java.nio.file.Path) -> mINESoUlSRpxCH
+    91:122:pro.gravit.utils.helper.JavaHelper$JavaVersion getRecommendJavaVersion(pro.gravit.launcher.profiles.ClientProfile) -> mINESoUlSRpxCH
     17:17:void <clinit>() -> <clinit>
 pro.gravit.launcher.client.gui.service.OfflineService -> pro.gravit.launcher.MiNESOulSRPYrc:
 # {"fileName":"OfflineService.java","id":"sourceFile"}

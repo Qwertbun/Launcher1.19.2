@@ -1,6 +1,6 @@
 {
-  "createAccountURL": "https://mine-souls.com",
-  "forgotPassURL": "https://mine-souls.com",
+  "createAccountURL": "",
+  "forgotPassURL": "",
   "hastebinServer": "https://hastebin.com",
   "forceDownloadJava": true,
   "javaList": {},

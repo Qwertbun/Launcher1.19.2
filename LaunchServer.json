@@ -12,9 +12,9 @@
     "std": {
       "isDefault": true,
       "core": {
-        "type": "mysql",
+        "type": "memory",
         "mySQLHolder": {
-          "address": "31.31.196.31",              // адрес mysql сервера
+          "address": "0.0.0.0",              // адрес mysql сервера
           "port": 3306,                        // порт mysql сервера
           "username": "user",          // имя пользователя
           "password": "password",              // пароль пользователя
@@ -94,10 +94,10 @@
     "disableWebApiInterface": false,
     "showHiddenFiles": false,
     "sendProfileUpdatesEvent": true,
-    "launcherURL": "http://0.0.0.0:9274/Launcher.jar",
-    "downloadURL": "http://0.0.0.0:9274/%dirname%/",
-    "launcherEXEURL": "http://0.0.0.0:9274/Launcher.exe",
-    "address": "ws://0.0.0.0:9274/api",
+    "launcherURL": "http://localhost:9274/Launcher.jar",
+    "downloadURL": "http://localhost:9274/%dirname%/",
+    "launcherEXEURL": "http://localhost:9274/Launcher.exe",
+    "address": "ws://localhost:9274/api",
     "bindings": {},
     "performance": {
       "usingEpoll": false,
@@ -139,5 +139,5 @@
     "metaInfSfName": "SIGNUMO.SF",
     "signAlgo": "SHA256WITHRSA"
   },
-  "startScript": ".\\start.bat"
+  "startScript": ".\\st.bat"
 }
