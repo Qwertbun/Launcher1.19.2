@@ -1,60 +1,267 @@
-2023-08-08 22:19:27.478 [main] DEBUG LogHelper - Testing stacktrace
-2023-08-08 22:19:27.482 [main] DEBUG LogHelper - Verifying class loader
-2023-08-08 22:19:27.482 [main] DEBUG LogHelper - Verifying JVM architecture
-2023-08-08 22:19:27.485 [main] INFO  LogHelper - [1;95mGravitLauncher [94m(fork sashok724's Launcher) [96mLaunchServer[97m v[94m5.4.2-1 stable[97m (build #[91m1[97m)[m
-2023-08-08 22:19:27.496 [main] INFO  LogHelper - [1;95mLicense for [96mLaunchServer[97m GPLv3[97m. SourceCode: [93mhttps://github.com/GravitLauncher/Launcher[m
-2023-08-08 22:19:28.116 [main] INFO  pro.gravit.launchserver.LaunchServerStarter - JLine2 terminal enabled
-2023-08-08 22:19:28.118 [main] INFO  pro.gravit.launchserver.LaunchServerStarter - Reading LaunchServer config file
-2023-08-08 22:19:28.150 [main] INFO  pro.gravit.launchserver.LaunchServerStarter - Reading LaunchServer runtime config file
-2023-08-08 22:19:28.303 [main] INFO  pro.gravit.launchserver.manangers.KeyAgreementManager - Reading ECDSA keypair
-2023-08-08 22:19:28.316 [main] INFO  pro.gravit.launchserver.manangers.KeyAgreementManager - Reading RSA keypair
-2023-08-08 22:19:28.424 [main] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher binaries
-2023-08-08 22:19:28.424 [main] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher binary file
-2023-08-08 22:19:28.536 [main] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher EXE binary file
-2023-08-08 22:19:28.606 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init components
-2023-08-08 22:19:28.608 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init component regLimiter
-2023-08-08 22:19:28.609 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init component authLimiter
-2023-08-08 22:19:28.611 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init component proguard
-2023-08-08 22:19:28.613 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init components successful
-2023-08-08 22:19:28.651 [Netty Server Socket Thread] INFO  pro.gravit.launchserver.socket.handlers.NettyServerSocketHandler - Starting netty server socket thread
-2023-08-08 22:19:28.664 [Netty Server Socket Thread] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
-2023-08-08 22:19:28.668 [Netty Server Socket Thread] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
-2023-08-08 22:19:28.720 [Netty Server Socket Thread] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-2023-08-08 22:19:28.720 [Netty Server Socket Thread] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-2023-08-08 22:19:28.757 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
-2023-08-08 22:19:28.757 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 17
-2023-08-08 22:19:28.758 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
-2023-08-08 22:19:28.759 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
-2023-08-08 22:19:28.759 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
-2023-08-08 22:19:28.760 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
-2023-08-08 22:19:28.761 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
-2023-08-08 22:19:28.761 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
-2023-08-08 22:19:28.763 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @52bf72b5
-2023-08-08 22:19:28.765 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
-2023-08-08 22:19:28.765 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
-2023-08-08 22:19:28.766 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 4282384384 bytes (maybe)
-2023-08-08 22:19:28.766 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\BOT\AppData\Local\Temp (java.io.tmpdir)
-2023-08-08 22:19:28.766 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-2023-08-08 22:19:28.767 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
-2023-08-08 22:19:28.768 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
-2023-08-08 22:19:28.768 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-2023-08-08 22:19:28.769 [Netty Server Socket Thread] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
-2023-08-08 22:19:28.770 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
-2023-08-08 22:19:28.771 [Netty Server Socket Thread] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
-2023-08-08 22:19:28.771 [Netty Server Socket Thread] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
-2023-08-08 22:19:28.789 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
-2023-08-08 22:19:28.992 [Netty Server Socket Thread] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 25376 (auto-detected)
-2023-08-08 22:19:28.989 [main] INFO  pro.gravit.launchserver.LaunchServer - LaunchServer started
-2023-08-08 22:19:28.997 [Netty Server Socket Thread] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
-2023-08-08 22:19:28.997 [Netty Server Socket Thread] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
-2023-08-08 22:19:29.028 [Netty Server Socket Thread] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-2023-08-08 22:19:29.029 [Netty Server Socket Thread] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-2023-08-08 22:19:29.070 [Netty Server Socket Thread] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 38:6b:1c:ff:fe:de:85:e1 (auto-detected)
-2023-08-08 22:19:29.095 [Netty Server Socket Thread] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
-2023-08-08 22:19:29.095 [Netty Server Socket Thread] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
-2023-08-08 22:19:29.211 [Netty Server Socket Thread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
-2023-08-08 22:19:29.211 [Netty Server Socket Thread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
-2023-08-08 22:19:29.212 [Netty Server Socket Thread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
-2023-08-08 22:19:29.212 [Netty Server Socket Thread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
-2023-08-08 22:19:29.212 [Netty Server Socket Thread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
-2023-08-08 22:19:29.212 [Netty Server Socket Thread] DEBUG io.netty.buffer.PooledByteBufAllocator
+2023-08-13 14:25:22.294 [main] DEBUG LogHelper - Testing stacktrace
+2023-08-13 14:25:22.313 [main] DEBUG LogHelper - Verifying class loader
+2023-08-13 14:25:22.313 [main] DEBUG LogHelper - Verifying JVM architecture
+2023-08-13 14:25:22.317 [main] INFO  LogHelper - [1;95mGravitLauncher [94m(fork sashok724's Launcher) [96mLaunchServer[97m v[94m5.4.2-1 stable[97m (build #[91m1[97m)[m
+2023-08-13 14:25:22.360 [main] INFO  LogHelper - [1;95mLicense for [96mLaunchServer[97m GPLv3[97m. SourceCode: [93mhttps://github.com/GravitLauncher/Launcher[m
+2023-08-13 14:25:24.033 [main] INFO  pro.gravit.launchserver.LaunchServerStarter - JLine2 terminal enabled
+2023-08-13 14:25:24.039 [main] INFO  pro.gravit.launchserver.LaunchServerStarter - Reading LaunchServer config file
+2023-08-13 14:25:24.122 [main] INFO  pro.gravit.launchserver.LaunchServerStarter - Reading LaunchServer runtime config file
+2023-08-13 14:25:24.444 [main] INFO  pro.gravit.launchserver.manangers.KeyAgreementManager - Reading ECDSA keypair
+2023-08-13 14:25:24.459 [main] INFO  pro.gravit.launchserver.manangers.KeyAgreementManager - Reading RSA keypair
+2023-08-13 14:25:24.702 [main] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher binaries
+2023-08-13 14:25:24.702 [main] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher binary file
+2023-08-13 14:25:24.798 [main] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher EXE binary file
+2023-08-13 14:25:24.872 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init components
+2023-08-13 14:25:24.880 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init component regLimiter
+2023-08-13 14:25:24.882 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init component authLimiter
+2023-08-13 14:25:24.885 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init component proguard
+2023-08-13 14:25:24.888 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init components successful
+2023-08-13 14:25:24.965 [Netty Server Socket Thread] INFO  pro.gravit.launchserver.socket.handlers.NettyServerSocketHandler - Starting netty server socket thread
+2023-08-13 14:25:25.099 [Netty Server Socket Thread] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+2023-08-13 14:25:25.122 [Netty Server Socket Thread] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+2023-08-13 14:25:25.238 [Netty Server Socket Thread] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-08-13 14:25:25.238 [Netty Server Socket Thread] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-08-13 14:25:25.316 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+2023-08-13 14:25:25.317 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 17
+2023-08-13 14:25:25.318 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2023-08-13 14:25:25.319 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2023-08-13 14:25:25.320 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+2023-08-13 14:25:25.328 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2023-08-13 14:25:25.336 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-08-13 14:25:25.337 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2023-08-13 14:25:25.346 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @52bf72b5
+2023-08-13 14:25:25.348 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-08-13 14:25:25.349 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2023-08-13 14:25:25.349 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 4282384384 bytes (maybe)
+2023-08-13 14:25:25.350 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\BOT\AppData\Local\Temp (java.io.tmpdir)
+2023-08-13 14:25:25.350 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-08-13 14:25:25.350 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+2023-08-13 14:25:25.352 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+2023-08-13 14:25:25.352 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-08-13 14:25:25.355 [main] INFO  pro.gravit.launchserver.LaunchServer - LaunchServer started
+2023-08-13 14:25:25.362 [Netty Server Socket Thread] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+2023-08-13 14:25:25.362 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+2023-08-13 14:25:25.363 [Netty Server Socket Thread] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2023-08-13 14:25:25.363 [Netty Server Socket Thread] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-08-13 14:25:25.384 [Netty Server Socket Thread] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2023-08-13 14:25:25.487 [Netty Server Socket Thread] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 12884 (auto-detected)
+2023-08-13 14:25:25.495 [Netty Server Socket Thread] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2023-08-13 14:25:25.495 [Netty Server Socket Thread] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2023-08-13 14:25:25.519 [Netty Server Socket Thread] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-08-13 14:25:25.520 [Netty Server Socket Thread] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-08-13 14:25:25.555 [Netty Server Socket Thread] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:15:5d:ff:fe:00:43:00 (auto-detected)
+2023-08-13 14:25:25.593 [Netty Server Socket Thread] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2023-08-13 14:25:25.593 [Netty Server Socket Thread] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2023-08-13 14:25:25.665 [Netty Server Socket Thread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+2023-08-13 14:25:25.665 [Netty Server Socket Thread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+2023-08-13 14:25:25.665 [Netty Server Socket Thread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2023-08-13 14:25:25.665 [Netty Server Socket Thread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+2023-08-13 14:25:25.665 [Netty Server Socket Thread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+2023-08-13 14:25:25.665 [Netty Server Socket Thread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2023-08-13 14:25:25.679 [Netty Server Socket Thread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2023-08-13 14:25:25.679 [Netty Server Socket Thread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-08-13 14:25:25.679 [Netty Server Socket Thread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-08-13 14:25:25.679 [Netty Server Socket Thread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-08-13 14:25:25.679 [Netty Server Socket Thread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-08-13 14:25:25.680 [Netty Server Socket Thread] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-08-13 14:25:25.698 [Netty Server Socket Thread] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+2023-08-13 14:25:25.698 [Netty Server Socket Thread] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-08-13 14:25:25.699 [Netty Server Socket Thread] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-08-13 14:25:25.720 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8] REGISTERED
+2023-08-13 14:25:25.722 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8] BIND: /0.0.0.0:9274
+2023-08-13 14:25:25.728 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] ACTIVE
+2023-08-13 14:25:25.752 [Profiles and updates sync] DEBUG pro.gravit.launchserver.manangers.UpdatesManager - Found 2 updates from cache
+2023-08-13 14:25:25.755 [Profiles and updates sync] INFO  pro.gravit.launchserver.LaunchServer - Syncing profiles dir
+2023-08-13 14:25:25.756 [Profiles and updates sync] INFO  pro.gravit.launchserver.LaunchServer.ProfilesFileVisitor - Syncing 'Forge1.19.2.json' profile
+2023-08-13 14:25:32.909 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0xf069e311, L:/127.0.0.1:9274 - R:/127.0.0.1:64315]
+2023-08-13 14:25:32.910 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 14:25:32.988 [nioEventLoopGroup-3-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2023-08-13 14:25:32.988 [nioEventLoopGroup-3-1] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2023-08-13 14:25:32.989 [nioEventLoopGroup-3-1] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@374e2b7d
+2023-08-13 14:25:33.037 [nioEventLoopGroup-3-1] DEBUG io.netty.handler.codec.compression.ZlibCodecFactory - -Dio.netty.noJdkZlibDecoder: false
+2023-08-13 14:25:33.037 [nioEventLoopGroup-3-1] DEBUG io.netty.handler.codec.compression.ZlibCodecFactory - -Dio.netty.noJdkZlibEncoder: false
+2023-08-13 14:25:33.067 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-08-13 14:25:33.067 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2023-08-13 14:25:33.067 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2023-08-13 14:25:33.067 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2023-08-13 14:25:33.114 [nioEventLoopGroup-3-1] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0xf069e311, L:/127.0.0.1:9274 - R:/127.0.0.1:64315] WebSocket version V13 server handshake
+2023-08-13 14:25:33.116 [nioEventLoopGroup-3-1] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: M5uXBGhpvDp0ljdGfe31GQ==, response: zdCeCPdn6+BGxd6SOmkrjQe7ZkM=
+2023-08-13 14:25:45.564 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0x9849795d, L:/127.0.0.1:9274 - R:/127.0.0.1:64319]
+2023-08-13 14:25:45.565 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 14:25:45.958 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0x47833b96, L:/127.0.0.1:9274 - R:/127.0.0.1:64320]
+2023-08-13 14:25:45.960 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0xc0da2341, L:/127.0.0.1:9274 - R:/127.0.0.1:64321]
+2023-08-13 14:25:45.960 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0x426c4cf1, L:/127.0.0.1:9274 - R:/127.0.0.1:64322]
+2023-08-13 14:25:45.960 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 14:27:01.838 [Command Thread] INFO  LogHelper - Command 'syncup'
+2023-08-13 14:27:01.839 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer - Syncing profiles dir
+2023-08-13 14:27:01.840 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer.ProfilesFileVisitor - Syncing 'Forge1.19.2.json' profile
+2023-08-13 14:27:01.842 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUPCommand - Profiles successfully resynced
+2023-08-13 14:27:01.842 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing updates dir
+2023-08-13 14:27:01.843 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'assets' update dir
+2023-08-13 14:27:04.728 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'Forge1.19.2' update dir
+2023-08-13 14:27:07.684 [Command Thread] DEBUG pro.gravit.launchserver.manangers.UpdatesManager - Saved 2 updates to cache
+2023-08-13 14:27:07.685 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUPCommand - Updates dir successfully resynced
+2023-08-13 14:27:14.558 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0x271d6791, L:/127.0.0.1:9274 - R:/127.0.0.1:64374]
+2023-08-13 14:27:14.558 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 14:27:14.582 [nioEventLoopGroup-3-6] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0x271d6791, L:/127.0.0.1:9274 - R:/127.0.0.1:64374] WebSocket version V13 server handshake
+2023-08-13 14:27:14.583 [nioEventLoopGroup-3-6] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: hk16zcjf6QOQIGfLMFpx1Q==, response: ZAPOuMcLcdD6SngUj16ibepeQYM=
+2023-08-13 14:27:32.876 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0x61f4f4b3, L:/127.0.0.1:9274 - R:/127.0.0.1:64381]
+2023-08-13 14:27:32.877 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0xb7a01712, L:/127.0.0.1:9274 - R:/127.0.0.1:64379]
+2023-08-13 14:27:32.878 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0x70eb8ea3, L:/127.0.0.1:9274 - R:/127.0.0.1:64380]
+2023-08-13 14:27:32.878 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 14:27:32.878 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0x24e15dc0, L:/127.0.0.1:9274 - R:/127.0.0.1:64382]
+2023-08-13 14:27:32.878 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 14:27:37.905 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0x8094d6bd, L:/127.0.0.1:9274 - R:/127.0.0.1:64384]
+2023-08-13 14:27:37.905 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 14:27:37.926 [nioEventLoopGroup-3-3] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0x8094d6bd, L:/127.0.0.1:9274 - R:/127.0.0.1:64384] WebSocket version V13 server handshake
+2023-08-13 14:27:37.926 [nioEventLoopGroup-3-3] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: Wh6ZJInXuqF5+5/CiHoh0A==, response: XhZ2/GPEwMlAK2KSx79NHIrJe00=
+2023-08-13 14:30:53.802 [Command Thread] INFO  LogHelper - Command 'syncup'
+2023-08-13 14:30:53.803 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer - Syncing profiles dir
+2023-08-13 14:30:53.803 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer.ProfilesFileVisitor - Syncing 'Forge1.19.2.json' profile
+2023-08-13 14:30:53.815 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUPCommand - Profiles successfully resynced
+2023-08-13 14:30:53.817 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing updates dir
+2023-08-13 14:30:53.818 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'assets' update dir
+2023-08-13 14:30:56.417 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'Forge1.19.2' update dir
+2023-08-13 14:30:57.769 [Command Thread] DEBUG pro.gravit.launchserver.manangers.UpdatesManager - Saved 2 updates to cache
+2023-08-13 14:30:57.770 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUPCommand - Updates dir successfully resynced
+2023-08-13 14:31:05.967 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0xfa117e51, L:/127.0.0.1:9274 - R:/127.0.0.1:64475]
+2023-08-13 14:31:05.967 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 14:31:05.987 [nioEventLoopGroup-3-4] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0xfa117e51, L:/127.0.0.1:9274 - R:/127.0.0.1:64475] WebSocket version V13 server handshake
+2023-08-13 14:31:05.987 [nioEventLoopGroup-3-4] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: k742oWBFeUM3gdnQvdiNsw==, response: aCYwecG9E9hPlrsjM9NmBNfb048=
+2023-08-13 14:31:46.221 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0x63de970d, L:/127.0.0.1:9274 - R:/127.0.0.1:64495]
+2023-08-13 14:31:46.221 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0xb39b256f, L:/127.0.0.1:9274 - R:/127.0.0.1:64493]
+2023-08-13 14:31:46.222 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0x73155bd6, L:/127.0.0.1:9274 - R:/127.0.0.1:64492]
+2023-08-13 14:31:46.222 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 14:31:46.222 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0xac903bdf, L:/127.0.0.1:9274 - R:/127.0.0.1:64494]
+2023-08-13 14:31:46.222 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 14:31:51.510 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0x94710308, L:/127.0.0.1:9274 - R:/127.0.0.1:64497]
+2023-08-13 14:31:51.511 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 14:31:51.532 [nioEventLoopGroup-3-1] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0x94710308, L:/127.0.0.1:9274 - R:/127.0.0.1:64497] WebSocket version V13 server handshake
+2023-08-13 14:31:51.533 [nioEventLoopGroup-3-1] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: OZjD9AsOouXeMTC/OnsetQ==, response: QDzlD0b2r+Gb2KympE0EdSP3ZSc=
+2023-08-13 14:33:41.331 [Command Thread] INFO  LogHelper - Command 'patcher pro.gravit.launchermodules.unsafecommands.patcher.StaticReplacerPatcher Optifine.jar false java.lang.ClassLoader getSystemClassLoader pro.gravit.launcher.api.ClientService getClassLoader'
+2023-08-13 14:33:41.345 [Command Thread] INFO  pro.gravit.launchermodules.unsafecommands.patcher.StaticReplacerPatcher - Create patcher java/lang/ClassLoader.getSystemClassLoader replaced to pro/gravit/launcher/api/ClientService.getClassLoader
+2023-08-13 14:33:41.395 [Command Thread] DEBUG LogHelper - Process file Optifine.jar
+2023-08-13 14:33:52.846 [Command Thread] INFO  LogHelper - Command 'syncup'
+2023-08-13 14:33:52.847 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer - Syncing profiles dir
+2023-08-13 14:33:52.847 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer.ProfilesFileVisitor - Syncing 'Forge1.19.2.json' profile
+2023-08-13 14:33:52.849 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUPCommand - Profiles successfully resynced
+2023-08-13 14:33:52.849 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing updates dir
+2023-08-13 14:33:52.849 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'assets' update dir
+2023-08-13 14:33:55.527 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'Forge1.19.2' update dir
+2023-08-13 14:33:56.883 [Command Thread] DEBUG pro.gravit.launchserver.manangers.UpdatesManager - Saved 2 updates to cache
+2023-08-13 14:33:56.883 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUPCommand - Updates dir successfully resynced
+2023-08-13 14:34:53.148 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0x0f50e0fe, L:/127.0.0.1:9274 - R:/127.0.0.1:64553]
+2023-08-13 14:34:53.148 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 14:34:53.168 [nioEventLoopGroup-3-2] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0x0f50e0fe, L:/127.0.0.1:9274 - R:/127.0.0.1:64553] WebSocket version V13 server handshake
+2023-08-13 14:34:53.168 [nioEventLoopGroup-3-2] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: 0PWfdv0hcb7ajrucGj8L0A==, response: erdHPsdiY+2vAuNjDHGK1m+YaHQ=
+2023-08-13 14:35:35.748 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0xe518c138, L:/127.0.0.1:9274 - R:/127.0.0.1:64571]
+2023-08-13 14:35:35.748 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0x17d14d31, L:/127.0.0.1:9274 - R:/127.0.0.1:64572]
+2023-08-13 14:35:35.748 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 14:35:35.750 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0x4e882b45, L:/127.0.0.1:9274 - R:/127.0.0.1:64573]
+2023-08-13 14:35:35.750 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 14:35:35.755 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0x86c3688d, L:/127.0.0.1:9274 - R:/127.0.0.1:64570]
+2023-08-13 14:35:35.755 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 14:35:45.122 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0xbf902397, L:/127.0.0.1:9274 - R:/127.0.0.1:64586]
+2023-08-13 14:35:45.122 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 14:35:45.143 [nioEventLoopGroup-3-7] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0xbf902397, L:/127.0.0.1:9274 - R:/127.0.0.1:64586] WebSocket version V13 server handshake
+2023-08-13 14:35:45.143 [nioEventLoopGroup-3-7] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: brv1cmA3e+J83rfYTU6CSQ==, response: Gic5n8gHNkKuL9isfpaC4AQx+do=
+2023-08-13 14:37:22.165 [Command Thread] INFO  LogHelper - Command 'syncup'
+2023-08-13 14:37:22.165 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer - Syncing profiles dir
+2023-08-13 14:37:22.166 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer.ProfilesFileVisitor - Syncing 'Forge1.19.2.json' profile
+2023-08-13 14:37:22.167 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUPCommand - Profiles successfully resynced
+2023-08-13 14:37:22.168 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing updates dir
+2023-08-13 14:37:22.168 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'assets' update dir
+2023-08-13 14:37:24.671 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'Forge1.19.2' update dir
+2023-08-13 14:37:25.902 [Command Thread] DEBUG pro.gravit.launchserver.manangers.UpdatesManager - Saved 2 updates to cache
+2023-08-13 14:37:25.903 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUPCommand - Updates dir successfully resynced
+2023-08-13 14:37:40.302 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0xd99ea21a, L:/127.0.0.1:9274 - R:/127.0.0.1:64634]
+2023-08-13 14:37:40.302 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 14:37:44.052 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0xb529672e, L:/127.0.0.1:9274 - R:/127.0.0.1:64637]
+2023-08-13 14:37:44.052 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 14:37:44.070 [nioEventLoopGroup-3-1] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0xb529672e, L:/127.0.0.1:9274 - R:/127.0.0.1:64637] WebSocket version V13 server handshake
+2023-08-13 14:37:44.071 [nioEventLoopGroup-3-1] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: tknsNs3eniLD/aEOSzZXPQ==, response: QjGTPEap0ICpykC88oDrvEyljQQ=
+2023-08-13 14:40:29.955 [Command Thread] INFO  LogHelper - Command 'syncup'
+2023-08-13 14:40:29.955 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer - Syncing profiles dir
+2023-08-13 14:40:29.957 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer.ProfilesFileVisitor - Syncing 'Forge1.19.2.json' profile
+2023-08-13 14:40:29.967 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUPCommand - Profiles successfully resynced
+2023-08-13 14:40:29.968 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing updates dir
+2023-08-13 14:40:29.969 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'assets' update dir
+2023-08-13 14:40:32.657 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'Forge1.19.2' update dir
+2023-08-13 14:40:33.902 [Command Thread] DEBUG pro.gravit.launchserver.manangers.UpdatesManager - Saved 2 updates to cache
+2023-08-13 14:40:33.920 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUPCommand - Updates dir successfully resynced
+2023-08-13 14:40:39.617 [Command Thread] INFO  LogHelper - Command 'syncupdates'
+2023-08-13 14:40:39.618 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing updates dir
+2023-08-13 14:40:39.618 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'assets' update dir
+2023-08-13 14:40:42.261 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'Forge1.19.2' update dir
+2023-08-13 14:40:43.571 [Command Thread] DEBUG pro.gravit.launchserver.manangers.UpdatesManager - Saved 2 updates to cache
+2023-08-13 14:40:43.571 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUpdatesCommand - Updates dir successfully resynced
+2023-08-13 14:40:49.956 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0x1774e883, L:/127.0.0.1:9274 - R:/127.0.0.1:64693]
+2023-08-13 14:40:49.956 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 14:40:55.024 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0xb572bc14, L:/127.0.0.1:9274 - R:/127.0.0.1:64698]
+2023-08-13 14:40:55.025 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 14:40:55.049 [nioEventLoopGroup-3-3] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0xb572bc14, L:/127.0.0.1:9274 - R:/127.0.0.1:64698] WebSocket version V13 server handshake
+2023-08-13 14:40:55.049 [nioEventLoopGroup-3-3] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: EvchXGlaziQOJZ871sqR5A==, response: 4UIQLy/2ExZMacUdjyfu2EvMZY8=
+2023-08-13 14:42:20.383 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0x843edc30, L:/127.0.0.1:9274 - R:/127.0.0.1:64737]
+2023-08-13 14:42:20.383 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0x3aae6e93, L:/127.0.0.1:9274 - R:/127.0.0.1:64734]
+2023-08-13 14:42:20.383 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 14:42:20.388 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0x27d70a86, L:/127.0.0.1:9274 - R:/127.0.0.1:64736]
+2023-08-13 14:42:20.388 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 14:42:20.560 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0xbf9eda7e, L:/127.0.0.1:9274 - R:/127.0.0.1:64735]
+2023-08-13 14:42:20.560 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 14:42:25.828 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0x02bb0c14, L:/127.0.0.1:9274 - R:/127.0.0.1:64739]
+2023-08-13 14:42:25.828 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 14:42:25.849 [nioEventLoopGroup-3-8] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0x02bb0c14, L:/127.0.0.1:9274 - R:/127.0.0.1:64739] WebSocket version V13 server handshake
+2023-08-13 14:42:25.849 [nioEventLoopGroup-3-8] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: PrOR+ujx5CRJVpxdIOXXdg==, response: bBIbo2yBjza1xQDS0g/HKykdiaA=
+2023-08-13 14:43:24.756 [Command Thread] INFO  LogHelper - Command 'syncprofiles '
+2023-08-13 14:43:24.757 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer - Syncing profiles dir
+2023-08-13 14:43:24.757 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer.ProfilesFileVisitor - Syncing 'Forge1.19.2.json' profile
+2023-08-13 14:43:24.759 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncProfilesCommand - Profiles successfully resynced
+2023-08-13 14:43:43.773 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0x832fd9ef, L:/127.0.0.1:9274 - R:/127.0.0.1:64768]
+2023-08-13 14:43:43.773 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 14:43:43.796 [nioEventLoopGroup-3-1] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0x832fd9ef, L:/127.0.0.1:9274 - R:/127.0.0.1:64768] WebSocket version V13 server handshake
+2023-08-13 14:43:43.796 [nioEventLoopGroup-3-1] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: K+uyB/NxHq/NSjW9v2El0Q==, response: afJj3udJK/gNUdkYJOY3lubjQc4=
+2023-08-13 14:49:15.094 [Command Thread] INFO  LogHelper - Command 'syncprofiles'
+2023-08-13 14:49:15.094 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer - Syncing profiles dir
+2023-08-13 14:49:15.095 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer.ProfilesFileVisitor - Syncing 'Forge1.19.2.json' profile
+2023-08-13 14:49:15.105 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncProfilesCommand - Profiles successfully resynced
+2023-08-13 14:49:24.745 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0x8f653861, L:/127.0.0.1:9274 - R:/127.0.0.1:64994]
+2023-08-13 14:49:24.745 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 14:49:24.768 [nioEventLoopGroup-3-2] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0x8f653861, L:/127.0.0.1:9274 - R:/127.0.0.1:64994] WebSocket version V13 server handshake
+2023-08-13 14:49:24.768 [nioEventLoopGroup-3-2] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: 58i6kovFvLzU4EzX9V002g==, response: rX1kKlVtP36/12NBLydI5Em3nmg=
+2023-08-13 15:06:29.924 [Command Thread] INFO  LogHelper - Command 'syncprofiles'
+2023-08-13 15:06:29.925 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer - Syncing profiles dir
+2023-08-13 15:06:29.925 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer.ProfilesFileVisitor - Syncing 'Forge1.19.2.json' profile
+2023-08-13 15:06:29.935 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncProfilesCommand - Profiles successfully resynced
+2023-08-13 15:07:10.733 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0xd54e019f, L:/127.0.0.1:9274 - R:/127.0.0.1:52196]
+2023-08-13 15:07:10.733 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 15:07:10.765 [nioEventLoopGroup-3-3] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0xd54e019f, L:/127.0.0.1:9274 - R:/127.0.0.1:52196] WebSocket version V13 server handshake
+2023-08-13 15:07:10.765 [nioEventLoopGroup-3-3] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: Iul3w4oK+ALthZ6mJCL8DQ==, response: S+SVl1eimT0MBrnp+ar4dQFHPBM=
+2023-08-13 15:31:02.326 [Command Thread] INFO  LogHelper - Command 'syncprofiles'
+2023-08-13 15:31:02.327 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer - Syncing profiles dir
+2023-08-13 15:31:02.328 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer.ProfilesFileVisitor - Syncing 'Forge1.19.2.json' profile
+2023-08-13 15:31:02.330 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncProfilesCommand - Profiles successfully resynced
+2023-08-13 15:31:03.635 [Command Thread] INFO  LogHelper - Command 'syncupdates'
+2023-08-13 15:31:03.635 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing updates dir
+2023-08-13 15:31:03.636 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'assets' update dir
+2023-08-13 15:31:06.302 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'Forge1.19.2' update dir
+2023-08-13 15:31:07.488 [Command Thread] DEBUG pro.gravit.launchserver.manangers.UpdatesManager - Saved 2 updates to cache
+2023-08-13 15:31:07.489 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUpdatesCommand - Updates dir successfully resynced
+2023-08-13 15:31:15.382 [Command Thread] INFO  LogHelper - Command 'syncup'
+2023-08-13 15:31:15.382 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer - Syncing profiles dir
+2023-08-13 15:31:15.383 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer.ProfilesFileVisitor - Syncing 'Forge1.19.2.json' profile
+2023-08-13 15:31:15.385 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUPCommand - Profiles successfully resynced
+2023-08-13 15:31:15.385 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing updates dir
+2023-08-13 15:31:15.385 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'assets' update dir
+2023-08-13 15:31:17.883 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'Forge1.19.2' update dir
+2023-08-13 15:31:19.087 [Command Thread] DEBUG pro.gravit.launchserver.manangers.UpdatesManager - Saved 2 updates to cache
+2023-08-13 15:31:19.087 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUPCommand - Updates dir successfully resynced
+2023-08-13 15:31:32.614 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0x5ac1faf7, L:/127.0.0.1:9274 - R:/127.0.0.1:53393]
+2023-08-13 15:31:32.614 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 15:31:32.636 [nioEventLoopGroup-3-4] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - [id: 0x5ac1faf7, L:/127.0.0.1:9274 - R:/127.0.0.1:53393] WebSocket version V13 server handshake
+2023-08-13 15:31:32.636 [nioEventLoopGroup-3-4] DEBUG io.netty.handler.codec.http.websocketx.WebSocketServerHandshaker - WebSocket version 13 server handshake key: 1ilQcgtK+RyW1XxN+VcP0Q==, response: k9+ktEn48Gm1fbJmNapj3Y8KwIQ=
+2023-08-13 15:32:59.693 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0x480f86f9, L:/127.0.0.1:9274 - R:/127.0.0.1:53432]
+2023-08-13 15:32:59.693 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 15:32:59.973 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0x7b2f20d3, L:/127.0.0.1:9274 - R:/127.0.0.1:53433]
+2023-08-13 15:32:59.974 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ COMPLETE
+2023-08-13 15:32:59.975 [nioEventLoopGroup-2-1] DEBUG io.netty.handler.logging.LoggingHandler - [id: 0xcca4a3f8, L:/[0:0:0:0:0:0:0:0]:9274] READ: [id: 0x11c2f5dc, L:/127.0.0.1:9274 - R:/127.0.0.1:53434]
+2023-08-13 15:32:59.975 [nioEventLoopGroup-2-

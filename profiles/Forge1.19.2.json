@@ -68,7 +68,8 @@
     "--add-opens",
     "cpw.mods.bootstraplauncher/cpw.mods.bootstraplauncher=ALL-UNrNAMED"
   ],
-  "classPath": ["mine1.19.2.jar","Optifine.jar",
+  "classPath": [
+    "Optifine.jar","mine1.19.2.jar",
     "libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar",
     "libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar",
     "libraries/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar",

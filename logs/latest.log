@@ -1,233 +1,104 @@
-2023-08-08 22:08:46.519 [main] INFO  LogHelper - [1;95mGravitLauncher [94m(fork sashok724's Launcher) [96mLaunchServer[97m v[94m5.4.2-1 stable[97m (build #[91m1[97m)[m
-2023-08-08 22:08:46.539 [main] INFO  LogHelper - [1;95mLicense for [96mLaunchServer[97m GPLv3[97m. SourceCode: [93mhttps://github.com/GravitLauncher/Launcher[m
-2023-08-08 22:08:48.379 [main] INFO  pro.gravit.launchserver.LaunchServerStarter - JLine2 terminal enabled
-2023-08-08 22:08:48.383 [main] INFO  pro.gravit.launchserver.LaunchServerStarter - Reading LaunchServer config file
-2023-08-08 22:08:48.546 [main] INFO  pro.gravit.launchserver.LaunchServerStarter - Reading LaunchServer runtime config file
-2023-08-08 22:08:48.758 [main] INFO  pro.gravit.launchserver.manangers.KeyAgreementManager - Generating ECDSA keypair
-2023-08-08 22:08:48.818 [main] INFO  pro.gravit.launchserver.manangers.KeyAgreementManager - Writing ECDSA keypair list
-2023-08-08 22:08:48.821 [main] INFO  pro.gravit.launchserver.manangers.KeyAgreementManager - Generating RSA keypair
-2023-08-08 22:08:49.113 [main] INFO  pro.gravit.launchserver.manangers.KeyAgreementManager - Writing RSA keypair list
-2023-08-08 22:08:49.357 [main] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher binaries
-2023-08-08 22:08:49.358 [main] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher binary file
-2023-08-08 22:08:49.358 [main] WARN  pro.gravit.launchserver.LaunchServer - Missing launcher binary file
-2023-08-08 22:08:49.359 [main] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher EXE binary file
-2023-08-08 22:08:49.359 [main] WARN  pro.gravit.launchserver.LaunchServer - Missing launcher EXE binary file
-2023-08-08 22:08:49.362 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init components
-2023-08-08 22:08:49.365 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init component regLimiter
-2023-08-08 22:08:49.369 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init component authLimiter
-2023-08-08 22:08:49.372 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init component proguard
-2023-08-08 22:08:49.377 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init components successful
-2023-08-08 22:08:49.427 [Netty Server Socket Thread] INFO  pro.gravit.launchserver.socket.handlers.NettyServerSocketHandler - Starting netty server socket thread
-2023-08-08 22:08:50.420 [Profiles and updates sync] DEBUG pro.gravit.launchserver.manangers.UpdatesManager - Found 2 updates from cache
-2023-08-08 22:08:50.429 [Profiles and updates sync] INFO  pro.gravit.launchserver.LaunchServer - Syncing profiles dir
-2023-08-08 22:08:50.435 [Profiles and updates sync] INFO  pro.gravit.launchserver.LaunchServer.ProfilesFileVisitor - Syncing 'Forge1.19.2.json' profile
-2023-08-08 22:08:51.051 [main] INFO  pro.gravit.launchserver.LaunchServer - LaunchServer started
-2023-08-08 22:08:56.901 [Command Thread] INFO  LogHelper - Command 'buil'
-2023-08-08 22:08:56.902 [Command Thread] ERROR LogHelper - Unknown command: 'buil'
-
-2023-08-08 22:09:00.476 [Command Thread] INFO  LogHelper - Command 'build'
-2023-08-08 22:09:00.477 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Building launcher binary file
-2023-08-08 22:09:00.477 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task UnpackFromResources
-2023-08-08 22:09:00.697 [Command Thread] INFO  pro.gravit.launchserver.binary.tasks.PrepareBuildTask - Unpacking launcher native guard list and runtime
-2023-08-08 22:09:00.698 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task UnpackFromResources processed from 221 millis
-2023-08-08 22:09:00.699 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task CertificateAutogen
-2023-08-08 22:09:00.699 [Command Thread] WARN  pro.gravit.launchserver.binary.tasks.CertificateAutogenTask - You are using an auto-generated certificate (sign.enabled false). It is not good
-2023-08-08 22:09:00.699 [Command Thread] WARN  pro.gravit.launchserver.binary.tasks.CertificateAutogenTask - It is highly recommended that you use the correct certificate (sign.enabled true)
-2023-08-08 22:09:00.700 [Command Thread] WARN  pro.gravit.launchserver.binary.tasks.CertificateAutogenTask - You can use GenerateCertificateModule or your own certificate.
-2023-08-08 22:09:01.455 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task CertificateAutogen processed from 757 millis
-2023-08-08 22:09:01.455 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task MainBuild
-2023-08-08 22:09:06.622 [Command Thread] DEBUG pro.gravit.launchserver.launchermodules.LauncherModuleLoader - Put D:\Repository\Launcher1.19.2\launcher-modules\JavaRuntime_lmodule.jar launcher module
-2023-08-08 22:09:07.572 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task MainBuild processed from 6117 millis
-2023-08-08 22:09:07.573 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task ProGuard.proguard
-2023-08-08 22:09:07.713 [Command Thread] ERROR LogHelper - java.lang.RuntimeException: JavaFX jmods not found. May be install OpenJFX?
-	at pro.gravit.launchserver.components.ProGuardComponent$ProGuardBuildTask.process(ProGuardComponent.java:145)
-	at pro.gravit.launchserver.binary.BinaryPipeline.build(BinaryPipeline.java:85)
-	at pro.gravit.launchserver.binary.LauncherBinary.build(LauncherBinary.java:26)
-	at pro.gravit.launchserver.LaunchServer.buildLauncherBinaries(LaunchServer.java:296)
-	at pro.gravit.launchserver.command.basic.BuildCommand.invoke(BuildCommand.java:23)
-	at pro.gravit.utils.command.CommandHandler.eval(CommandHandler.java:38)
-	at pro.gravit.utils.command.CommandHandler.evalNative(CommandHandler.java:29)
-	at pro.gravit.utils.command.CommandHandler.eval(CommandHandler.java:19)
-	at pro.gravit.utils.command.CommandHandler.readLoop(CommandHandler.java:74)
-	at pro.gravit.utils.command.CommandHandler.run(CommandHandler.java:101)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-
-2023-08-08 22:09:39.511 [Command Thread] INFO  LogHelper - Command 'build'
-2023-08-08 22:09:39.511 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Building launcher binary file
-2023-08-08 22:09:39.511 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task UnpackFromResources
-2023-08-08 22:09:39.589 [Command Thread] INFO  pro.gravit.launchserver.binary.tasks.PrepareBuildTask - Unpacking launcher native guard list and runtime
-2023-08-08 22:09:39.590 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task UnpackFromResources processed from 79 millis
-2023-08-08 22:09:39.590 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task CertificateAutogen
-2023-08-08 22:09:39.591 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task CertificateAutogen processed from 1 millis
-2023-08-08 22:09:39.591 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task MainBuild
-2023-08-08 22:09:41.805 [Command Thread] DEBUG pro.gravit.launchserver.launchermodules.LauncherModuleLoader - Put D:\Repository\Launcher1.19.2\launcher-modules\JavaRuntime_lmodule.jar launcher module
-2023-08-08 22:09:42.462 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task MainBuild processed from 2871 millis
-2023-08-08 22:09:42.462 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task ProGuard.proguard
-2023-08-08 22:09:42.463 [Command Thread] ERROR LogHelper - java.lang.RuntimeException: JavaFX jmods not found. May be install OpenJFX?
-	at pro.gravit.launchserver.components.ProGuardComponent$ProGuardBuildTask.process(ProGuardComponent.java:145)
-	at pro.gravit.launchserver.binary.BinaryPipeline.build(BinaryPipeline.java:85)
-	at pro.gravit.launchserver.binary.LauncherBinary.build(LauncherBinary.java:26)
-	at pro.gravit.launchserver.LaunchServer.buildLauncherBinaries(LaunchServer.java:296)
-	at pro.gravit.launchserver.command.basic.BuildCommand.invoke(BuildCommand.java:23)
-	at pro.gravit.utils.command.CommandHandler.eval(CommandHandler.java:38)
-	at pro.gravit.utils.command.CommandHandler.evalNative(CommandHandler.java:29)
-	at pro.gravit.utils.command.CommandHandler.eval(CommandHandler.java:19)
-	at pro.gravit.utils.command.CommandHandler.readLoop(CommandHandler.java:74)
-	at pro.gravit.utils.command.CommandHandler.run(CommandHandler.java:101)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-
-2023-08-08 22:10:20.159 [main] INFO  LogHelper - [1;95mGravitLauncher [94m(fork sashok724's Launcher) [96mLaunchServer[97m v[94m5.4.2-1 stable[97m (build #[91m1[97m)[m
-2023-08-08 22:10:20.171 [main] INFO  LogHelper - [1;95mLicense for [96mLaunchServer[97m GPLv3[97m. SourceCode: [93mhttps://github.com/GravitLauncher/Launcher[m
-2023-08-08 22:10:20.971 [main] INFO  pro.gravit.launchserver.LaunchServerStarter - JLine2 terminal enabled
-2023-08-08 22:10:20.974 [main] INFO  pro.gravit.launchserver.LaunchServerStarter - Reading LaunchServer config file
-2023-08-08 22:10:21.042 [main] INFO  pro.gravit.launchserver.LaunchServerStarter - Reading LaunchServer runtime config file
-2023-08-08 22:10:21.233 [main] INFO  pro.gravit.launchserver.manangers.KeyAgreementManager - Reading ECDSA keypair
-2023-08-08 22:10:21.260 [main] INFO  pro.gravit.launchserver.manangers.KeyAgreementManager - Reading RSA keypair
-2023-08-08 22:10:21.391 [main] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher binaries
-2023-08-08 22:10:21.391 [main] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher binary file
-2023-08-08 22:10:21.392 [main] WARN  pro.gravit.launchserver.LaunchServer - Missing launcher binary file
-2023-08-08 22:10:21.393 [main] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher EXE binary file
-2023-08-08 22:10:21.394 [main] WARN  pro.gravit.launchserver.LaunchServer - Missing launcher EXE binary file
-2023-08-08 22:10:21.395 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init components
-2023-08-08 22:10:21.398 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init component regLimiter
-2023-08-08 22:10:21.400 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init component authLimiter
-2023-08-08 22:10:21.402 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init component proguard
-2023-08-08 22:10:21.407 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init components successful
-2023-08-08 22:10:21.427 [Netty Server Socket Thread] INFO  pro.gravit.launchserver.socket.handlers.NettyServerSocketHandler - Starting netty server socket thread
-2023-08-08 22:10:22.096 [main] INFO  pro.gravit.launchserver.LaunchServer - LaunchServer started
-2023-08-08 22:10:22.443 [Profiles and updates sync] DEBUG pro.gravit.launchserver.manangers.UpdatesManager - Found 2 updates from cache
-2023-08-08 22:10:22.446 [Profiles and updates sync] INFO  pro.gravit.launchserver.LaunchServer - Syncing profiles dir
-2023-08-08 22:10:22.448 [Profiles and updates sync] INFO  pro.gravit.launchserver.LaunchServer.ProfilesFileVisitor - Syncing 'Forge1.19.2.json' profile
-2023-08-08 22:10:33.763 [Command Thread] INFO  LogHelper - Command 'build'
-2023-08-08 22:10:33.764 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Building launcher binary file
-2023-08-08 22:10:33.764 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task UnpackFromResources
-2023-08-08 22:10:33.890 [Command Thread] INFO  pro.gravit.launchserver.binary.tasks.PrepareBuildTask - Unpacking launcher native guard list and runtime
-2023-08-08 22:10:33.890 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task UnpackFromResources processed from 126 millis
-2023-08-08 22:10:33.891 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task CertificateAutogen
-2023-08-08 22:10:33.891 [Command Thread] WARN  pro.gravit.launchserver.binary.tasks.CertificateAutogenTask - You are using an auto-generated certificate (sign.enabled false). It is not good
-2023-08-08 22:10:33.891 [Command Thread] WARN  pro.gravit.launchserver.binary.tasks.CertificateAutogenTask - It is highly recommended that you use the correct certificate (sign.enabled true)
-2023-08-08 22:10:33.892 [Command Thread] WARN  pro.gravit.launchserver.binary.tasks.CertificateAutogenTask - You can use GenerateCertificateModule or your own certificate.
-2023-08-08 22:10:34.375 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task CertificateAutogen processed from 485 millis
-2023-08-08 22:10:34.376 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task MainBuild
-2023-08-08 22:10:38.187 [Command Thread] DEBUG pro.gravit.launchserver.launchermodules.LauncherModuleLoader - Put D:\Repository\Launcher1.19.2\launcher-modules\JavaRuntime_lmodule.jar launcher module
-2023-08-08 22:10:39.133 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task MainBuild processed from 4757 millis
-2023-08-08 22:10:39.133 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task ProGuard.proguard
-2023-08-08 22:10:39.253 [Command Thread] DEBUG pro.gravit.launchserver.components.ProGuardComponent - JavaFX jmods resolved in JDK path
-2023-08-08 22:10:39.397 [Command Thread] OFF   proguard.ProGuard - ProGuard, version 7.3.1
-2023-08-08 22:11:10.582 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task ProGuard.proguard processed from 31448 millis
-2023-08-08 22:11:10.586 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task AttachJars
-2023-08-08 22:11:15.202 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task AttachJars processed from 4621 millis
-2023-08-08 22:11:15.203 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task AdditionalFixesApply
-2023-08-08 22:11:21.532 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task AdditionalFixesApply processed from 6329 millis
-2023-08-08 22:11:21.533 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task compress
-2023-08-08 22:11:26.560 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task compress processed from 5026 millis
-2023-08-08 22:11:26.562 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task SignJar
-2023-08-08 22:11:31.578 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task SignJar processed from 5018 millis
-2023-08-08 22:11:31.622 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Build successful from 57816 millis
-2023-08-08 22:11:31.623 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Building launcher binary file
-2023-08-08 22:11:31.623 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task launch4j
-2023-08-08 22:11:31.624 [Command Thread] INFO  pro.gravit.launchserver.binary.tasks.exe.Launch4JTask - Building launcher EXE binary file (Using Launch4J)
-2023-08-08 22:11:32.102 [Command Thread] WARN  pro.gravit.launchserver.binary.tasks.exe.Launch4JTask - Missing favicon.ico file
-2023-08-08 22:11:32.150 [Command Thread] INFO  pro.gravit.launchserver.binary.tasks.exe.Launch4JTask.Launch4JLog - Compiling resources
-2023-08-08 22:11:32.352 [Command Thread] INFO  pro.gravit.launchserver.binary.tasks.exe.Launch4JTask.Launch4JLog - Linking
-2023-08-08 22:11:32.786 [Command Thread] INFO  pro.gravit.launchserver.binary.tasks.exe.Launch4JTask.Launch4JLog - Wrapping
-WARNING: Sign the executable to minimize antivirus false positives or use launching instead of wrapping.
-2023-08-08 22:11:32.983 [Command Thread] INFO  pro.gravit.launchserver.binary.tasks.exe.Launch4JTask.Launch4JLog - Successfully created C:\Users\BOT\AppData\Local\Temp\launchserver-5790bd6364798f781c7240219bb7acd8\build\Launcher-launch4j-0.exe
-2023-08-08 22:11:32.985 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task launch4j processed from 1362 millis
-2023-08-08 22:11:33.001 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Build successful from 1362 millis
-2023-08-08 22:11:33.002 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher binaries
-2023-08-08 22:11:33.003 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher binary file
-2023-08-08 22:11:33.103 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher EXE binary file
-2023-08-08 22:12:12.312 [main] INFO  LogHelper - [1;95mGravitLauncher [94m(fork sashok724's Launcher) [96mLaunchServer[97m v[94m5.4.2-1 stable[97m (build #[91m1[97m)[m
-2023-08-08 22:12:12.326 [main] INFO  LogHelper - [1;95mLicense for [96mLaunchServer[97m GPLv3[97m. SourceCode: [93mhttps://github.com/GravitLauncher/Launcher[m
-2023-08-08 22:12:13.459 [main] INFO  pro.gravit.launchserver.LaunchServerStarter - JLine2 terminal enabled
-2023-08-08 22:12:13.470 [main] INFO  pro.gravit.launchserver.LaunchServerStarter - Reading LaunchServer config file
-2023-08-08 22:12:13.673 [main] INFO  pro.gravit.launchserver.LaunchServerStarter - Reading LaunchServer runtime config file
-2023-08-08 22:12:14.120 [main] INFO  pro.gravit.launchserver.manangers.KeyAgreementManager - Reading ECDSA keypair
-2023-08-08 22:12:14.124 [main] INFO  pro.gravit.launchserver.manangers.KeyAgreementManager - Reading RSA keypair
-2023-08-08 22:12:14.374 [main] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher binaries
-2023-08-08 22:12:14.375 [main] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher binary file
-2023-08-08 22:12:14.491 [main] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher EXE binary file
-2023-08-08 22:12:14.597 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init components
-2023-08-08 22:12:14.600 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init component regLimiter
-2023-08-08 22:12:14.602 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init component authLimiter
-2023-08-08 22:12:14.605 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init component proguard
-2023-08-08 22:12:14.619 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init components successful
-2023-08-08 22:12:14.642 [Netty Server Socket Thread] INFO  pro.gravit.launchserver.socket.handlers.NettyServerSocketHandler - Starting netty server socket thread
-2023-08-08 22:12:15.297 [main] INFO  pro.gravit.launchserver.LaunchServer - LaunchServer started
-2023-08-08 22:12:16.152 [Profiles and updates sync] DEBUG pro.gravit.launchserver.manangers.UpdatesManager - Found 2 updates from cache
-2023-08-08 22:12:16.169 [Profiles and updates sync] INFO  pro.gravit.launchserver.LaunchServer - Syncing profiles dir
-2023-08-08 22:12:16.175 [Profiles and updates sync] INFO  pro.gravit.launchserver.LaunchServer.ProfilesFileVisitor - Syncing 'Forge1.19.2.json' profile
-2023-08-08 22:13:57.303 [Command Thread] INFO  LogHelper - Command 'syncprofiles '
-2023-08-08 22:13:57.304 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer - Syncing profiles dir
-2023-08-08 22:13:57.305 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer.ProfilesFileVisitor - Syncing 'Forge1.19.2.json' profile
-2023-08-08 22:13:57.306 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncProfilesCommand - Profiles successfully resynced
-2023-08-08 22:14:02.769 [Command Thread] INFO  LogHelper - Command 'syncupdates '
-2023-08-08 22:14:02.769 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing updates dir
-2023-08-08 22:14:02.770 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'assets' update dir
-2023-08-08 22:14:05.001 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'Forge1.19.2' update dir
-2023-08-08 22:14:14.779 [Command Thread] DEBUG pro.gravit.launchserver.manangers.UpdatesManager - Saved 2 updates to cache
-2023-08-08 22:14:14.779 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUpdatesCommand - Updates dir successfully resynced
-2023-08-08 22:19:27.485 [main] INFO  LogHelper - [1;95mGravitLauncher [94m(fork sashok724's Launcher) [96mLaunchServer[97m v[94m5.4.2-1 stable[97m (build #[91m1[97m)[m
-2023-08-08 22:19:27.496 [main] INFO  LogHelper - [1;95mLicense for [96mLaunchServer[97m GPLv3[97m. SourceCode: [93mhttps://github.com/GravitLauncher/Launcher[m
-2023-08-08 22:19:28.116 [main] INFO  pro.gravit.launchserver.LaunchServerStarter - JLine2 terminal enabled
-2023-08-08 22:19:28.118 [main] INFO  pro.gravit.launchserver.LaunchServerStarter - Reading LaunchServer config file
-2023-08-08 22:19:28.150 [main] INFO  pro.gravit.launchserver.LaunchServerStarter - Reading LaunchServer runtime config file
-2023-08-08 22:19:28.303 [main] INFO  pro.gravit.launchserver.manangers.KeyAgreementManager - Reading ECDSA keypair
-2023-08-08 22:19:28.316 [main] INFO  pro.gravit.launchserver.manangers.KeyAgreementManager - Reading RSA keypair
-2023-08-08 22:19:28.424 [main] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher binaries
-2023-08-08 22:19:28.424 [main] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher binary file
-2023-08-08 22:19:28.536 [main] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher EXE binary file
-2023-08-08 22:19:28.606 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init components
-2023-08-08 22:19:28.608 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init component regLimiter
-2023-08-08 22:19:28.609 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init component authLimiter
-2023-08-08 22:19:28.611 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init component proguard
-2023-08-08 22:19:28.613 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init components successful
-2023-08-08 22:19:28.651 [Netty Server Socket Thread] INFO  pro.gravit.launchserver.socket.handlers.NettyServerSocketHandler - Starting netty server socket thread
-2023-08-08 22:19:28.989 [main] INFO  pro.gravit.launchserver.LaunchServer - LaunchServer started
-2023-08-08 22:19:29.260 [Profiles and updates sync] DEBUG pro.gravit.launchserver.manangers.UpdatesManager - Found 2 updates from cache
-2023-08-08 22:19:29.268 [Profiles and updates sync] INFO  pro.gravit.launchserver.LaunchServer - Syncing profiles dir
-2023-08-08 22:19:29.275 [Profiles and updates sync] INFO  pro.gravit.launchserver.LaunchServer.ProfilesFileVisitor - Syncing 'Forge1.19.2.json' profile
-2023-08-08 22:19:32.026 [Command Thread] INFO  LogHelper - Command 'D:LibericaJDK-17-Fullbin'
-2023-08-08 22:19:32.027 [Command Thread] ERROR LogHelper - Unknown command: 'd:libericajdk-17-fullbin'
-
-2023-08-08 22:19:34.175 [Command Thread] INFO  LogHelper - Command 'build'
-2023-08-08 22:19:34.176 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Building launcher binary file
-2023-08-08 22:19:34.176 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task UnpackFromResources
-2023-08-08 22:19:34.457 [Command Thread] INFO  pro.gravit.launchserver.binary.tasks.PrepareBuildTask - Unpacking launcher native guard list and runtime
-2023-08-08 22:19:34.458 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task UnpackFromResources processed from 282 millis
-2023-08-08 22:19:34.459 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task CertificateAutogen
-2023-08-08 22:19:34.459 [Command Thread] WARN  pro.gravit.launchserver.binary.tasks.CertificateAutogenTask - You are using an auto-generated certificate (sign.enabled false). It is not good
-2023-08-08 22:19:34.459 [Command Thread] WARN  pro.gravit.launchserver.binary.tasks.CertificateAutogenTask - It is highly recommended that you use the correct certificate (sign.enabled true)
-2023-08-08 22:19:34.460 [Command Thread] WARN  pro.gravit.launchserver.binary.tasks.CertificateAutogenTask - You can use GenerateCertificateModule or your own certificate.
-2023-08-08 22:19:34.848 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task CertificateAutogen processed from 390 millis
-2023-08-08 22:19:34.848 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task MainBuild
-2023-08-08 22:19:38.377 [Command Thread] DEBUG pro.gravit.launchserver.launchermodules.LauncherModuleLoader - Put D:\Repository\Launcher1.19.2\launcher-modules\JavaRuntime_lmodule.jar launcher module
-2023-08-08 22:19:39.104 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task MainBuild processed from 4256 millis
-2023-08-08 22:19:39.104 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task ProGuard.proguard
-2023-08-08 22:19:39.106 [Command Thread] DEBUG pro.gravit.launchserver.components.ProGuardComponent - JavaFX jmods resolved in JDK path
-2023-08-08 22:19:39.178 [Command Thread] OFF   proguard.ProGuard - ProGuard, version 7.3.1
-2023-08-08 22:19:56.472 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task ProGuard.proguard processed from 17367 millis
-2023-08-08 22:19:56.473 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task AttachJars
-2023-08-08 22:19:59.451 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task AttachJars processed from 2979 millis
-2023-08-08 22:19:59.452 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task AdditionalFixesApply
-2023-08-08 22:20:03.819 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task AdditionalFixesApply processed from 4368 millis
-2023-08-08 22:20:03.820 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task compress
-2023-08-08 22:20:07.959 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task compress processed from 4140 millis
-2023-08-08 22:20:07.960 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task SignJar
-2023-08-08 22:20:11.680 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task SignJar processed from 3720 millis
-2023-08-08 22:20:11.705 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Build successful from 37504 millis
-2023-08-08 22:20:11.705 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Building launcher binary file
-2023-08-08 22:20:11.705 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task launch4j
-2023-08-08 22:20:11.706 [Command Thread] INFO  pro.gravit.launchserver.binary.tasks.exe.Launch4JTask - Building launcher EXE binary file (Using Launch4J)
-2023-08-08 22:20:11.915 [Command Thread] WARN  pro.gravit.launchserver.binary.tasks.exe.Launch4JTask - Missing favicon.ico file
-2023-08-08 22:20:11.926 [Command Thread] INFO  pro.gravit.launchserver.binary.tasks.exe.Launch4JTask.Launch4JLog - Compiling resources
-2023-08-08 22:20:12.055 [Command Thread] INFO  pro.gravit.launchserver.binary.tasks.exe.Launch4JTask.Launch4JLog - Linking
-2023-08-08 22:20:12.153 [Command Thread] INFO  pro.gravit.launchserver.binary.tasks.exe.Launch4JTask.Launch4JLog - Wrapping
-WARNING: Sign the executable to minimize antivirus false positives or use launching instead of wrapping.
-2023-08-08 22:20:12.238 [Command Thread] INFO  pro.gravit.launchserver.binary.tasks.exe.Launch4JTask.Launch4JLog - Successfully created C:\Users\BOT\AppData\Local\Temp\launchserver-1ac84e991c96561f93bf934b6a6ad6d3\build\Launcher-launch4j-0.exe
-2023-08-08 22:20:12.239 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Task launch4j processed from 534 millis
-2023-08-08 22:20:12.246 [Command Thread] INFO  pro.gravit.launchserver.binary.BinaryPipeline - Build successful from 534 millis
-2023-08-08 22:20:12.248 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher binaries
-2023-08-08 22:20:12.248 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher binary file
-2023-08-08 22:20:12.330 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher EXE binary file
+2023-08-13 14:25:22.317 [main] INFO  LogHelper - [1;95mGravitLauncher [94m(fork sashok724's Launcher) [96mLaunchServer[97m v[94m5.4.2-1 stable[97m (build #[91m1[97m)[m
+2023-08-13 14:25:22.360 [main] INFO  LogHelper - [1;95mLicense for [96mLaunchServer[97m GPLv3[97m. SourceCode: [93mhttps://github.com/GravitLauncher/Launcher[m
+2023-08-13 14:25:24.033 [main] INFO  pro.gravit.launchserver.LaunchServerStarter - JLine2 terminal enabled
+2023-08-13 14:25:24.039 [main] INFO  pro.gravit.launchserver.LaunchServerStarter - Reading LaunchServer config file
+2023-08-13 14:25:24.122 [main] INFO  pro.gravit.launchserver.LaunchServerStarter - Reading LaunchServer runtime config file
+2023-08-13 14:25:24.444 [main] INFO  pro.gravit.launchserver.manangers.KeyAgreementManager - Reading ECDSA keypair
+2023-08-13 14:25:24.459 [main] INFO  pro.gravit.launchserver.manangers.KeyAgreementManager - Reading RSA keypair
+2023-08-13 14:25:24.702 [main] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher binaries
+2023-08-13 14:25:24.702 [main] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher binary file
+2023-08-13 14:25:24.798 [main] INFO  pro.gravit.launchserver.LaunchServer - Syncing launcher EXE binary file
+2023-08-13 14:25:24.872 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init components
+2023-08-13 14:25:24.880 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init component regLimiter
+2023-08-13 14:25:24.882 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init component authLimiter
+2023-08-13 14:25:24.885 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init component proguard
+2023-08-13 14:25:24.888 [main] DEBUG pro.gravit.launchserver.LaunchServer - Init components successful
+2023-08-13 14:25:24.965 [Netty Server Socket Thread] INFO  pro.gravit.launchserver.socket.handlers.NettyServerSocketHandler - Starting netty server socket thread
+2023-08-13 14:25:25.355 [main] INFO  pro.gravit.launchserver.LaunchServer - LaunchServer started
+2023-08-13 14:25:25.752 [Profiles and updates sync] DEBUG pro.gravit.launchserver.manangers.UpdatesManager - Found 2 updates from cache
+2023-08-13 14:25:25.755 [Profiles and updates sync] INFO  pro.gravit.launchserver.LaunchServer - Syncing profiles dir
+2023-08-13 14:25:25.756 [Profiles and updates sync] INFO  pro.gravit.launchserver.LaunchServer.ProfilesFileVisitor - Syncing 'Forge1.19.2.json' profile
+2023-08-13 14:27:01.838 [Command Thread] INFO  LogHelper - Command 'syncup'
+2023-08-13 14:27:01.839 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer - Syncing profiles dir
+2023-08-13 14:27:01.840 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer.ProfilesFileVisitor - Syncing 'Forge1.19.2.json' profile
+2023-08-13 14:27:01.842 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUPCommand - Profiles successfully resynced
+2023-08-13 14:27:01.842 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing updates dir
+2023-08-13 14:27:01.843 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'assets' update dir
+2023-08-13 14:27:04.728 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'Forge1.19.2' update dir
+2023-08-13 14:27:07.684 [Command Thread] DEBUG pro.gravit.launchserver.manangers.UpdatesManager - Saved 2 updates to cache
+2023-08-13 14:27:07.685 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUPCommand - Updates dir successfully resynced
+2023-08-13 14:30:53.802 [Command Thread] INFO  LogHelper - Command 'syncup'
+2023-08-13 14:30:53.803 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer - Syncing profiles dir
+2023-08-13 14:30:53.803 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer.ProfilesFileVisitor - Syncing 'Forge1.19.2.json' profile
+2023-08-13 14:30:53.815 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUPCommand - Profiles successfully resynced
+2023-08-13 14:30:53.817 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing updates dir
+2023-08-13 14:30:53.818 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'assets' update dir
+2023-08-13 14:30:56.417 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'Forge1.19.2' update dir
+2023-08-13 14:30:57.769 [Command Thread] DEBUG pro.gravit.launchserver.manangers.UpdatesManager - Saved 2 updates to cache
+2023-08-13 14:30:57.770 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUPCommand - Updates dir successfully resynced
+2023-08-13 14:33:41.331 [Command Thread] INFO  LogHelper - Command 'patcher pro.gravit.launchermodules.unsafecommands.patcher.StaticReplacerPatcher Optifine.jar false java.lang.ClassLoader getSystemClassLoader pro.gravit.launcher.api.ClientService getClassLoader'
+2023-08-13 14:33:41.345 [Command Thread] INFO  pro.gravit.launchermodules.unsafecommands.patcher.StaticReplacerPatcher - Create patcher java/lang/ClassLoader.getSystemClassLoader replaced to pro/gravit/launcher/api/ClientService.getClassLoader
+2023-08-13 14:33:52.846 [Command Thread] INFO  LogHelper - Command 'syncup'
+2023-08-13 14:33:52.847 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer - Syncing profiles dir
+2023-08-13 14:33:52.847 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer.ProfilesFileVisitor - Syncing 'Forge1.19.2.json' profile
+2023-08-13 14:33:52.849 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUPCommand - Profiles successfully resynced
+2023-08-13 14:33:52.849 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing updates dir
+2023-08-13 14:33:52.849 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'assets' update dir
+2023-08-13 14:33:55.527 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'Forge1.19.2' update dir
+2023-08-13 14:33:56.883 [Command Thread] DEBUG pro.gravit.launchserver.manangers.UpdatesManager - Saved 2 updates to cache
+2023-08-13 14:33:56.883 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUPCommand - Updates dir successfully resynced
+2023-08-13 14:37:22.165 [Command Thread] INFO  LogHelper - Command 'syncup'
+2023-08-13 14:37:22.165 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer - Syncing profiles dir
+2023-08-13 14:37:22.166 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer.ProfilesFileVisitor - Syncing 'Forge1.19.2.json' profile
+2023-08-13 14:37:22.167 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUPCommand - Profiles successfully resynced
+2023-08-13 14:37:22.168 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing updates dir
+2023-08-13 14:37:22.168 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'assets' update dir
+2023-08-13 14:37:24.671 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'Forge1.19.2' update dir
+2023-08-13 14:37:25.902 [Command Thread] DEBUG pro.gravit.launchserver.manangers.UpdatesManager - Saved 2 updates to cache
+2023-08-13 14:37:25.903 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUPCommand - Updates dir successfully resynced
+2023-08-13 14:40:29.955 [Command Thread] INFO  LogHelper - Command 'syncup'
+2023-08-13 14:40:29.955 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer - Syncing profiles dir
+2023-08-13 14:40:29.957 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer.ProfilesFileVisitor - Syncing 'Forge1.19.2.json' profile
+2023-08-13 14:40:29.967 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUPCommand - Profiles successfully resynced
+2023-08-13 14:40:29.968 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing updates dir
+2023-08-13 14:40:29.969 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'assets' update dir
+2023-08-13 14:40:32.657 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'Forge1.19.2' update dir
+2023-08-13 14:40:33.902 [Command Thread] DEBUG pro.gravit.launchserver.manangers.UpdatesManager - Saved 2 updates to cache
+2023-08-13 14:40:33.920 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUPCommand - Updates dir successfully resynced
+2023-08-13 14:40:39.617 [Command Thread] INFO  LogHelper - Command 'syncupdates'
+2023-08-13 14:40:39.618 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing updates dir
+2023-08-13 14:40:39.618 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'assets' update dir
+2023-08-13 14:40:42.261 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'Forge1.19.2' update dir
+2023-08-13 14:40:43.571 [Command Thread] DEBUG pro.gravit.launchserver.manangers.UpdatesManager - Saved 2 updates to cache
+2023-08-13 14:40:43.571 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUpdatesCommand - Updates dir successfully resynced
+2023-08-13 14:43:24.756 [Command Thread] INFO  LogHelper - Command 'syncprofiles '
+2023-08-13 14:43:24.757 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer - Syncing profiles dir
+2023-08-13 14:43:24.757 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer.ProfilesFileVisitor - Syncing 'Forge1.19.2.json' profile
+2023-08-13 14:43:24.759 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncProfilesCommand - Profiles successfully resynced
+2023-08-13 14:49:15.094 [Command Thread] INFO  LogHelper - Command 'syncprofiles'
+2023-08-13 14:49:15.094 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer - Syncing profiles dir
+2023-08-13 14:49:15.095 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer.ProfilesFileVisitor - Syncing 'Forge1.19.2.json' profile
+2023-08-13 14:49:15.105 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncProfilesCommand - Profiles successfully resynced
+2023-08-13 15:06:29.924 [Command Thread] INFO  LogHelper - Command 'syncprofiles'
+2023-08-13 15:06:29.925 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer - Syncing profiles dir
+2023-08-13 15:06:29.925 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer.ProfilesFileVisitor - Syncing 'Forge1.19.2.json' profile
+2023-08-13 15:06:29.935 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncProfilesCommand - Profiles successfully resynced
+2023-08-13 15:31:02.326 [Command Thread] INFO  LogHelper - Command 'syncprofiles'
+2023-08-13 15:31:02.327 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer - Syncing profiles dir
+2023-08-13 15:31:02.328 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer.ProfilesFileVisitor - Syncing 'Forge1.19.2.json' profile
+2023-08-13 15:31:02.330 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncProfilesCommand - Profiles successfully resynced
+2023-08-13 15:31:03.635 [Command Thread] INFO  LogHelper - Command 'syncupdates'
+2023-08-13 15:31:03.635 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing updates dir
+2023-08-13 15:31:03.636 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'assets' update dir
+2023-08-13 15:31:06.302 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'Forge1.19.2' update dir
+2023-08-13 15:31:07.488 [Command Thread] DEBUG pro.gravit.launchserver.manangers.UpdatesManager - Saved 2 updates to cache
+2023-08-13 15:31:07.489 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUpdatesCommand - Updates dir successfully resynced
+2023-08-13 15:31:15.382 [Command Thread] INFO  LogHelper - Command 'syncup'
+2023-08-13 15:31:15.382 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer - Syncing profiles dir
+2023-08-13 15:31:15.383 [Command Thread] INFO  pro.gravit.launchserver.LaunchServer.ProfilesFileVisitor - Syncing 'Forge1.19.2.json' profile
+2023-08-13 15:31:15.385 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUPCommand - Profiles successfully resynced
+2023-08-13 15:31:15.385 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing updates dir
+2023-08-13 15:31:15.385 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'assets' update dir
+2023-08-13 15:31:17.883 [Command Thread] INFO  pro.gravit.launchserver.manangers.UpdatesManager - Syncing 'Forge1.19.2' update dir
+2023-08-13 15:31:19.087 [Command Thread] DEBUG pro.gravit.launchserver.manangers.UpdatesManager - Saved 2 updates to cache
+2023-08-13 15:31:19.087 [Command Thread] INFO  pro.gravit.launchserver.command.hash.SyncUPCommand - Updates dir successfully resynced
